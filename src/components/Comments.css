@@ -1,0 +1,15 @@
+.comments {
+    margin: 20px !important;
+}
+
+.comments__li {
+    padding: 0 !important;
+}
+
+.comments__comment {
+    background-color: lightgray;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    padding: 10px;
+    word-break: break-all;
+}

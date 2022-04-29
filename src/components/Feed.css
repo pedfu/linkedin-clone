@@ -51,6 +51,7 @@
     justify-content: space-evenly;
     padding: 2px 15px;
     width: 540px;
+    padding-bottom: 10px;
 }
 
 .feed__buttonIcon {
@@ -67,6 +68,6 @@
 }
 
 .feed__buttonIcon:hover {
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
     border-radius: 5px;
 }

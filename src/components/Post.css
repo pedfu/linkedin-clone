@@ -1,0 +1,122 @@
+.post {
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.post__header {
+    display: flex;
+    margin: 15px;
+}
+
+.post__header > div > h4, .post__header > div > p {
+    margin-left: 5px;
+}
+
+.post__header > div > h4 {
+    color: rgb(60, 60, 60);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.post__header > div > p {
+    color: gray;
+    font-weight: 00;
+    font-size: 12px;
+}
+
+.post__post > p {
+    margin: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post__image > img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+}
+
+.post__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.post__commentInput {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.post__input {
+    width: 100%;
+    display: flex;
+    border-radius: 40px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-left: 10px;
+    height: 40px;
+}
+
+.post__commentInput form {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.post__inputTextarea {
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-left: 20px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.post__input .post__imageIcon.ab {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.post__inputAddImage {
+    display: flex;
+    align-items: center;
+    color: gray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.post__inputAddImage:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.comment {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.comment__container {
+    display: flex;
+    margin: 20px;
+}
+
+.comment__message {
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-color: lightgray;
+    width: 100%;
+    max-width: 480px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+.comment__message > div > p, .comment__message > div > h5 {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+}
